@@ -2,3 +2,12 @@
 - npx create-next-app@latest --typescript
 - framework는 코드를 어떤 곳에 넣으면 framework가 그 코드를 부르는 형태이다.
 - page폴더 안에서 파일명이 곧 url주소가 된다. 그 파일 안에서 export default function을 해줘야함. 
+- next.js의 가장 좋은 기능중 하나는, 앱에 있는 페이지들이 미리 렌더링 된다는 것이다. 이것들이 정적(static)으로 생성된다.
+- client-side 렌더링은 브라우저가 유저가 보는 UI를 만드는 모든것을 한다는것을 의미한다.
+- next.js는 초기상태로 pre-rendering을 한다.
+- react.js를 프런트엔드 안에서 실행하는것을 hydration이라고 한다.
+- next.js는 react.js를 백엔드에서 동작시켜서 페이지를 미리 만드는데 이것이 component들을 render시킨다.
+- 랜더링이 끝났을때 그건 HTML이 되고 next.js는 그 HTML을 페이지의 소스코드에 넣어준다.
+- 그럼 유저는 자바스크립트와 react.js가 로딩되지 않았더라도 콘텐츠를 볼수 있게 된다.
+- 구글 같은 검색엔진의 SEO에도 좋고 유저에게도 너무 좋다.
+- 유저들이 웹사이트에 가면 이미 무언가가 있다는것이다. 유저가 코드를 다운받아 react를 실행시키길 기다리지 않아도 된다.
