@@ -1,2 +1,4 @@
 ### Introduction
 - npx create-next-app@latest --typescript
+- framework는 코드를 어떤 곳에 넣으면 framework가 그 코드를 부르는 형태이다.
+- page폴더 안에서 파일명이 곧 url주소가 된다. 그 파일 안에서 export default function을 해줘야함. 
