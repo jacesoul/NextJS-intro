@@ -16,3 +16,4 @@
 - App Component는 일종의 어떤 컴포넌트의 청사진이다.(NestJS가 모든 페이지를 렌더링 할수 있게한다)
 - _app.js의 이름은 변경할수 없다. 
 - NextJS가 About페이지를 렌더링하려고 할때, NextJS는 이 컴포넌트를 가져다가 Component props으로서 _app.js파일 내의 이 App함수에 전달해준다.
+- getServcerSideProps의 function이름은 바꾸면 안된다. 이 자리에서 어떤 코드를 작성하던지간에 그 코드는 server에서 돌아가게 된다.
